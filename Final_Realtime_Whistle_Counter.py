@@ -7,7 +7,7 @@ SAMPLE_RATE = 16000          # mic sample rate (Hz)
 WINDOW_DURATION = 0.05       # 50 ms analysis window
 MIN_SILENCE_BETWEEN = 0.5    # seconds of quiet to separate whistles
 
-THRESHOLD_MULTIPLIER = 2.8   # loudness sensitivity (lower = more sensitive)
+THRESHOLD_MULTIPLIER = 3   # loudness sensitivity (lower = more sensitive)
 
 # Generic pressure-cooker whistle band (fairly lenient)
 WHISTLE_LOW_HZ = 1500        # lower bound of band
@@ -15,7 +15,7 @@ WHISTLE_HIGH_HZ = 4500       # upper bound of band
 
 # How "whistle-like" it must be:
 # ratio = energy in whistle band / total energy
-RATIO_THRESHOLD = 0.7      # lower = more lenient, higher = stricter
+RATIO_THRESHOLD = 0.9      # lower = more lenient, higher = stricter
 
 CALIBRATION_SECONDS = 3.0    # background calibration duration
 # ---------------------------------------------------
